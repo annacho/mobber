@@ -1,181 +1,378 @@
-<html>
-<head>
-	<link rel="stylesheet" type="text/css" href="main.css">
-	<link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
-	<title>Mobber</title>
-	</head>
-<body>
-	<div class="navbar">
-		<div id="container">
-			<div class="logo"></div>
-			<div class="logotext">MOBBER</div>
-			<div class="navtext">
-			<ul>
-				<li>FIND A MOB</li>
-				<li>START A MOB</li>
-			</ul>
-			</div>
-			<div class="account">
-				<div class="image"><img src="images/face.png"></div>
-				<div class="username">John Doe<img src="images/arrow.png"></div>
-			</div>
-		</div>
-	</div>
+body{
+	margin: 0;
+    padding: 0;
+	font-family: 'Didact Gothic', sans-serif;
+	text-align: center;
+}
 
-	<div class="header">
-		<div id="container">
-			Spread the word and be rewarded for spreading the word for others.
-		</div>
-	</div>
+#container{
+	width: 960px;
+	margin: 0 auto;
+	display: inline-block;
+}
 
-	<div class="featured">
-		<div id="container">
-			<div class="content">
-				<img src="http://cdn.u2.com/non_secure/images/20100713/news/news_13july2010/large.jpg" width=620px height=399px>
-			</div>	
-	<!-- black transparent bar width=620px	height=55px <h2>U2 World Tour</h2> <img src="images/watchbk.png" >-->
-	<!-- image width=620px	height=400px -->
-	<!-- yellow wraparound width=140px	height=32px <h2>MOB MESSAGE</h2> -->
-	<!-- gray bar width=620px	height=82px 
-	<h3><i>"U2's 360 tour starts April 16, 2012. Get your tickets at Ticketmaster <br> http://cl.ly/0d2P2f"</i></h3>-->
-	<!-- right side -->
-			<div class="sidebar">
-				<div class="box">
-					<div class="numbers">78</div>
-					<div class="text">MOBBERS</div>
-				</div>
-				<div class="box">
-					<div class="numbers">250</div>
-					<div class="text">MOBBERS NEEDED</div>
-				</div>
-			<!--Button <h2>Join this Mob!</h2> <img src="images/ribbon.png"> <h3><b>Your Reward</b></h3><h2>Ticket Presale Entrance</h2> -->
-				<h6>This Mob will only be released if it is joined by the needed amount of mobbers. Spread the word!</h6>
-				<!-- line -->
-				<img src="images/tweet.png">
-				<img src="images/fb.png">
-				<img src="images/google.png">
-				<img src="images/link.png">
-			</div>
-		</div>
-	</div>
+.navbar{
+	margin-top: 0;
+/*	margin-right: auto;
+	margin-left: auto;*/
+	padding-top: 0px;
+	background-image:url('images/navbar.png');
+	background-repeat: repeat-x;
+	display: block;
+	width: 100%;
+	height: 60px;
+/*	padding-left: 170px;*/
+	float: left;
+}
 
-	<div class="main">
-		<div id="container">
-			<!-- pictures width=300px	height=194px-->
-			<div class="main">	
-				<div class="highlights">
-					<img src="images/pic1.png">
-					<img src="images/pic2.png">
-					<img src="images/pic3.png">
-					<div class="text1">J.Crew Men's Watches</div>
-<!-- 					<div class="timestamp2">3:12:43<img src="images/watchwh.png"></div> -->
-					<div class="text2">52 Mobbers, 100 Mobbers Needed</div>
-				</div>
-							
-<!-- 					<div class="caption">
-						
-						<p><div class="text1">J.Crew Men's Watches</div>
-						<div class="text2">52 Mobbers, 100 Mobbers Needed</div></p> -->
-	<!-- 					<p>Free Appetizer at Ruth's Chris Steak House</p>
-							<p>Presale for Twisted Sister Reunion Tour</p> -->
-	<!-- 					</div>
-							<p>52 Mobbers, 100 Mobbers Needed</p>
-							<p>52 Mobbers, 100 Mobbers Needed</p>
-						</div>	 -->
-				<!-- 	</div> -->
+.logo{
+	height: 60px;
+	width: 56px;
+	float: left;
+	background-image: url('images/logo.png')
+}
 
-					<!-- </div>	 -->					
-<!-- 				<div class="h4">3:12:43</div>
-				<div class="h4"></div>
-				<img src="images/watchwh.png">
-				<div class="h4">3:12:43</div>
-				<img src="images/watchwh.png"> -->
-				<br>
-				<br>
-				<hr>
-				<h2><b>Upcoming Mobs</b></h2>
-				<div class="left">
-				<table style="width:621px">
-				<br>	
-				<tr>
-					<td><b>Muse's New Album Release</b></td>
-					<td>100 Mobbers Needed</td>
-					<td>Thursday, April 4, 2012</td>
-				</tr>
-				<tr>
-					<td><b>P.F. Chang's Restaurant</b></td>
-					<td>100 Mobbers Needed</td>
-					<td>Thursday, April 4, 2012</td>
-				</tr>
-				<tr>
-					<td><b>J.Crew Men's Watch Sale</b></td>
-					<td>100 Mobbers Needed</td>
-					<td>Thursday, April 4, 2012</td>
-				</tr>
-				<tr>
-					<td><b>J.Crew Men's Watch Sale</b></td>
-					<td>100 Mobbers Needed</td>
-					<td>Thursday, April 4, 2012</td>
-				</tr>
-				</table>	
-				<!-- </div>
+.logotext{
+	height: 60px;
+	line-height: 60px;
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: 700;
+	text-shadow: 1px 1px 1px #1D1D1D;
+	margin-left: 10px;
+	float: left;
+}
 
-				<div class="startbox"> -->
-				<!-- <h2>Start your own mob.</h2> -->
-<!-- 				<img src="images/one.png">	
-				<h4>Upload Mob Image</h4>	
-				<img src="images/line.png">	
-				<img src="images/two.png">	
-				<h4>Write Mob Message</h4>	
-				<img src="images/line.png">		
-				<img src="images/three.png">	
-				<h4>Upload Mob Reward</h4>	
-				botton  -->
-				<!-- Button <h2>Start a Mob</h2> -->
-				<!-- </div> -->
-				<div class="sidebar">
-				</div>
-			</div>	
-		</div>
-	</div>
+.navtext{
+	height: 60px;
+	line-height: 60px;
+	font-size: 18px;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #1D1D1D;
+	margin-left: 10px;
+	float: left;	
+}
 
-	<div class="footer">
-		<div id="container">
-			<!-- first third -->
-				<h3><b>Mob Categories</b></h3>
-				<h4>Music</h4>
-				<h4>Charity</h4>
-				<h4>Fashion</h4>
-				<h4>Design</h4>
-				<h4>Art</h4>
-			<!-- next column -->
-				<h4>Games</h4>
-				<h4>Technology</h4>
-				<h4>Film</h4>
-				<h4>Sports</h4>
-				<h4>Theater</h4>
-			<!-- second third -->
-				<h3><b>Connect with Mobber</b></h3>
-				<h4>Be the first to know about the latest mobs. Join our mailing list. And don't worry, it's completely private.</h4>
-				<img src="images/email.png">
-				<img src="images/fbsmall.png">
-				<h3>Like us on Facebook</h3>
-				<!-- line -->
-				<img src="images/tweetsmall.png">
-				<h3>Follow us on Twitter</h3>
-				<!-- line -->
-				<img src="images/googlesmall.png">
-				<h3>+1 us on Google</h3>
-		</div>
-	</div>
-<!-- third third -->
-<!-- button <h3>How it Works</h3>
- -->	<br>
-	<h3><b>Have a problem?</b></h3>
-	<h4>Feel free to contact us if you're experiencing problems or just need some help.</h4>
-	<img src="images/email2.png">
-	<!-- line -->
-	<h3><!-- copyright -->2012 Mobber, Inc.</h3><br>
-	<h3>All Rights Reserved</h3> 
-</body>
-</html>
+/*.navmenu{
+	height: 40px;
+	width: 100%;
+	color: white;
+	position: relative;
+	list-style: none;
+}*/
+
+.navbar ul{
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+/*	margin-right: 100px;*/
+	color: white;
+	text-shadow: 1px 1px 1px #1D1D1D;
+	float: left;
+}
+
+.navbar li{
+	text-align: center;
+	position: relative;
+	padding: 4px;
+	margin-right: 30px;
+	float: left;
+}
+
+.navbar li a{
+	color: #ffffff;
+	display: block;
+	text-shadow: 1px 1px 1px #1D1D1D;
+}
+
+.account{
+	margin-top: 0;
+	float: right;
+	width: 155px;
+}
+
+.account .image{
+	float: left;
+}
+
+.account .username{
+	color: white;
+	text-shadow: 1px 1px 1px #1D1D1D;
+	line-height: 22px;
+}
+
+.header{
+	height: 150px;
+	background-color: #ffffff;
+	color: #414141;	
+	font-size: 32px;
+	font-weight:300;
+	line-height: 90px;
+/*	padding-left: 120px;*/
+}
+
+.featured{
+	height: 575px;
+	background-color: #f2f0ec;
+	padding-top: 30px;
+/*	width: 100%;
+	height: 638px;
+	padding-left: 170px;
+	position: absolute;
+	float: left;*/
+}
+
+.featured .content{
+	float: left
+	width: 40%;
+	display: inline;
+}
+
+.featured .sidebar{
+	float: right;
+	width: 35%;
+	min-height: 200px;
+}
+
+.box{
+	width: 140px;
+	height: 150px;
+	padding-left: 20px;
+	display: inline-block;
+}
+
+.box .numbers{
+	height: 120px;
+	background-color: #d0cdc7;
+	color: #ffffff;
+	line-height: 120px;
+	font-size: 60px;
+	font-weight: 400
+	text-shadow: 1px 1px #b5aea3;
+}
+
+.box .text{
+	width: 140px;
+	height: 30px;
+	background-color: #b5aea3;
+	color: #65635f;
+	font-size: 12px;
+	line-height: 30px;
+	text-shadow: 1px 1px .5px #ddd;
+}
+
+.main{
+	padding-top: 30px;
+	height: 610px;
+	background-color: #ffffff;
+/*	float: left;*/
+/*	width: 100%;
+	height: 320px;
+	padding-left: 170px;*/
+}
+
+.main .highlights{
+	width: 30%;
+	display: inline;
+	padding: 20px;
+/*	margin-top: 30px;
+	margin-right: 20px; */
+}
+
+.main .highlights .caption{
+/*	width: 70%;*/
+	float: left;
+}
+
+.main .highlights /*.caption */.text1{
+	text-align: left;
+	font-size: 14px;
+	font-weight: 900;
+}
+
+.main .highlights /*.caption */.text2{
+	text-align: left;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.main .timestamp2{
+	/*float: right;*/
+	width: 10%;
+	display: inline;
+	font-size: 10px;
+}
+
+.main h2{
+	font-size: 16px;
+	text-align: left;
+	font-weight: 400;
+}
+
+.main .left{
+	font-size: 10px;
+	float: left;
+	width: 60%;
+	display: inline;
+}
+
+.main .sidebar{
+	float: right;
+	width: 35%;
+	min-height: 200px;
+	background-color: #d0cdc7;
+} 
+
+table{
+	border-collapse: collapse;
+	width: 100%;
+	font-size: 11px;
+}
+
+table td{
+
+}
+
+table th{
+
+}
+
+.middle{
+
+}
+
+.right{
+
+}
+
+/*	width: 100%;*/
+/*	height: 288px;
+	font-size: 24px;*/
+/*	text-align: left;*/
+/*	padding-left: 170px;
+*/
+
+.footer{
+	height: 340px;
+	background-color: #545352;
+	color: white;
+	padding-top: 20px;
+/*	background-image:url('images/footer.png');
+	background-repeat: repeat-x;	
+	width: 100%;
+	height: 341px;
+	position: absolute;
+	font-color: white;
+	padding-left: 170px;*/
+}
+
+.footer .title{
+	font-size: 14px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #1D1D1D;
+	text-align: left;
+	padding-bottom: 15px;
+}
+
+.footer .article{
+	font-size: 10px;
+	text-shadow: 1px 1px 1px #1D1D1D;
+	text-align: left;
+	width: 60%;
+}
+
+.first {
+	width: 30%;
+	display: inline-block;
+	margin-left: 0;
+	clear: both;
+}
+
+.one-half{
+	float: left;
+	width: 48%;
+	margin-left: 2%;
+}
+
+.one-half .first{
+	margin-left: 0;
+	clear: both;
+}
+
+#footer .second{
+	width: 30%;
+	display: inline-table;
+	margin-left: 50px;
+}
+
+.inputs{
+	 background: #f5f5f5; 
+  font-size: 0.8rem; 
+  -moz-border-radius: 3px; 
+  -webkit-border-radius: 3px; 
+  border-radius: 3px; 
+  border: none; 
+  padding: 13px 10px; 
+  width:270px; 
+  margin-bottom: 20px; 
+  box-shadow: inset 0px 2px 3px rgba( 0,0,0,0.1 ); 
+  clear: both; 
+	background: #F1F1F1 url(./images/emailcheck.png) no-repeat;
+	background-position: 95% 5% ;}
+}
+
+/*.startbox{
+	width: 300px;
+	height: 209px;	
+}*/
+
+.socialmedia{
+	color: #BDBCBC;
+	font-size: 12px;
+	line-height: 30px;
+	border-bottom: 2px solid #494949;
+}
+
+#footer .third{
+	width: 30%;
+	display: inline-block;
+	float: right;
+}
+
+.button-size {
+	width: 40px;
+	height: 15px
+	display: inline-block;
+}
+
+.grayButton{
+	-moz-box-shadow: 0px 1px 0px -1px #adadad;
+	-webkit-box-shadow: 0px 1px 0px -1px #adadad;
+	box-shadow: 0px 1px 0px -1px #adadad;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #8a8a85), color-stop(1, #61605f));
+	background:-moz-linear-gradient(top, #8a8a85 5%, #61605f 100%);
+	background:-webkit-linear-gradient(top, #8a8a85 5%, #61605f 100%);
+	background:-o-linear-gradient(top, #8a8a85 5%, #61605f 100%);
+	background:-ms-linear-gradient(top, #8a8a85 5%, #61605f 100%);
+	background:linear-gradient(to bottom, #8a8a85 5%, #61605f 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8a8a85', endColorstr='#61605f',GradientType=0);
+	background-color:#8a8a85;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #808080;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:12px;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2e2e2e;
+	margin-bottom: 10px;
+}
+
+.grayButton:active{
+	position:relative;
+	top:1px;
+}	
